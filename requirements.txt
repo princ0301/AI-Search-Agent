@@ -1,4 +1,6 @@
-ollama==0.3.0
 trafilatura==1.12.2
 beautifulsoup4==4.12.3
 colorama==0.4.6
+google-generativeai==0.8.4
+groq==0.13.1
+streamlit==1.42.2
