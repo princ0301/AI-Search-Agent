@@ -2,6 +2,10 @@
 
 An intelligent search agent that leverages large language models to perform web searches, extract relevant information, and provide accurate responses. This tool enhances AI capabilities by accessing up-to-date information from the web.
 
+## Live Demo
+
+Try the live demo: [AI Search Agent on Streamlit Cloud](https://aisearchagent.streamlit.app/)
+
 ## Features
 
 - **Intelligent Query Generation**: Automatically creates optimal search queries based on user input
@@ -10,7 +14,6 @@ An intelligent search agent that leverages large language models to perform web 
 - **Multiple Model Support**: Works with both Groq (Llama3, Mixtral) and Google's Gemini models
 - **Interactive UI**: Built with Streamlit for a clean, user-friendly experience
 - **Command Line Interface**: Standalone mode for terminal usage
-
 
 ## Architecture
 
@@ -67,6 +70,17 @@ streamlit run gemini_app.py
 
 Open your browser at http://localhost:8501 to use the application.
 
+### Streamlit Cloud Deployment
+
+The application is deployed on Streamlit Cloud and can be accessed at:
+[https://aisearchagent.streamlit.app/](https://aisearchagent.streamlit.app/)
+
+To deploy your own version:
+1. Push your code to a GitHub repository
+2. Log in to [Streamlit Cloud](https://streamlit.io/cloud)
+3. Create a new app pointing to your repository
+4. Add your API keys as secrets in the Streamlit Cloud dashboard
+
 ### Command Line Interface
 
 For terminal-based usage:
@@ -91,7 +105,7 @@ You can select your preferred model in the sidebar of the web interface or by mo
 
 ## System Components
 
--  `gemini_app.py`: Main Streamlit applications
+- `gemini_app.py`: Main Streamlit applications
 - `main.py`: Command-line interface
 - `sys_msgs.py`: System prompts for LLM orchestration
 - `requirements.txt`: Project dependencies
