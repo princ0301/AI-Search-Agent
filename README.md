@@ -11,9 +11,6 @@ An intelligent search agent that leverages large language models to perform web 
 - **Interactive UI**: Built with Streamlit for a clean, user-friendly experience
 - **Command Line Interface**: Standalone mode for terminal usage
 
-## Demo
-
-![AI Web Search Agent Demo]("Screenshot 2025-03-01 165807.png")
 
 ## Architecture
 
