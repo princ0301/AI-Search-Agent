@@ -13,7 +13,7 @@ An intelligent search agent that leverages large language models to perform web 
 
 ## Demo
 
-![AI Web Search Agent Demo](Screenshot 2025-03-01 165807.png)
+![AI Web Search Agent Demo]("Screenshot 2025-03-01 165807.png")
 
 ## Architecture
 
